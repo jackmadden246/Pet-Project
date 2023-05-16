@@ -9,6 +9,10 @@ const FredDescription = props => {
     function onHover() {
         setHover(true);
     }
+    function onHoverEnd() {
+        setHover(false);
+    }
+  
   
 
     return (
@@ -19,13 +23,12 @@ const FredDescription = props => {
             className={classes.image} 
             src={props.image} 
             onMouseEnter={onHover}
-            onMouseLeave={!onHover}
+            onMouseLeave={onHoverEnd}
             />
     )
             }
         
         {hover && ( <Modal 
-        text = <p>Pick me!</p> 
         />
         )
         }
