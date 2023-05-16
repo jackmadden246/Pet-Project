@@ -1,6 +1,6 @@
 import classes from '../styles/PuppyProfile.module.css';
 
-const PuppyProfile = (props) => {
+const PuppyProfile = props => {
     return (
         <>
         <h1 className={classes.title}>{props.title}</h1>

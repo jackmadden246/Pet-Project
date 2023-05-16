@@ -1,6 +1,6 @@
 import classes from '../styles/Welcome.module.css';
 
-const WelcomeMessage = (props) => {
+const WelcomeMessage = props => {
 
 return ( 
     <> 

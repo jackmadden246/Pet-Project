@@ -2,7 +2,7 @@ import classes from '../styles/Fred.module.css';
 import { useState } from 'react';
 import Modal from './modal';
 
-const FredDescription = (props) => {
+const FredDescription = props => {
 
     const [hover, setHover] = useState(false);
 
