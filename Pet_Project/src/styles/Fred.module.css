@@ -1,0 +1,16 @@
+.title {
+    font-size: 2em;
+    text-align: left;
+  }
+
+.image {
+    display: block;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+.request {
+    font-size: 3em;
+    text-align: center;
+
+}
