@@ -1,3 +1,5 @@
+import classes from "../styles/RupertProfile.module.css";
+
 const RupertProfilePage = props => {
     return (
         <>

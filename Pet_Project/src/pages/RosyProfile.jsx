@@ -1,3 +1,5 @@
+import classes from "../styles/RosyProfile.module.css";
+
 const RosyProfilePage = props => {
     return (
         <>

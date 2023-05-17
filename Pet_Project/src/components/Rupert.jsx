@@ -1,4 +1,6 @@
-const RupertDescription = () => {
+import classes from "../styles/Rosy.module.css";
+
+const RupertDescription = props => {
     return (
         <>
         <h1 className={classes.title}>{props.title}</h1>
@@ -6,3 +8,5 @@ const RupertDescription = () => {
         </>
     )
 };
+
+export default RupertDescription;

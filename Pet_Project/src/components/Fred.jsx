@@ -1,5 +1,4 @@
-import classes from '../styles/Fred.module.css';
-
+import classes from "../styles/Fred.module.css";
 
 const FredDescription = props => {
   

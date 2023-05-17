@@ -1,4 +1,4 @@
-import classes from '../styles/FredProfile.module.css';
+import classes from "../styles/FredProfile.module.css";
 
 const FredProfilePage = props => {
     return (
