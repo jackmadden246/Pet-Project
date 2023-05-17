@@ -1,0 +1,16 @@
+.title {
+    font-size: 5em;
+    text-align: center;
+  }
+  
+.text {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}  
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

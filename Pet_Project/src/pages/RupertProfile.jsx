@@ -1,6 +1,4 @@
-import classes from '../styles/PuppyProfile.module.css';
-
-const PuppyProfile = props => {
+const RupertProfilePage = props => {
     return (
         <>
         <h1 className={classes.title}>{props.title}</h1>
@@ -11,4 +9,4 @@ const PuppyProfile = props => {
     );
 }
 
-export default PuppyProfile;
+export default RupertProfilePage;

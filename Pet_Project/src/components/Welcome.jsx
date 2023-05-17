@@ -9,6 +9,6 @@ return (
     <p className={classes.text}>{props.details}</p>
     </>
 );
-}
+};
 
 export default WelcomeMessage;

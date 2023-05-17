@@ -1,6 +1,6 @@
 import WelcomeMessage from "./components/Welcome";
 import FredDescription from "./components/Fred";
-import FredImage from './assets/cute-puppy.jpg'
+import FredImage from './assets/Fred.jpg'
 
 
 function App() {
