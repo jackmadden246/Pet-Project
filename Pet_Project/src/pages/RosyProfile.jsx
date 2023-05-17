@@ -9,6 +9,6 @@ const RosyProfilePage = props => {
 
         </>
     );
-};
+}
 
 export default RosyProfilePage;

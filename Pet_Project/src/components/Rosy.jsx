@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import classes from "../styles/Rosy.module.css";
 
-const RosyDescription = props => {
+const PorshaDescription = props => {
     return (
         <>
         <Link to={"/RosyProfile"}> 
@@ -12,4 +12,4 @@ const RosyDescription = props => {
     )
 };
 
-export default RosyDescription;
+export default PorshaDescription;
