@@ -1,6 +1,6 @@
 import WelcomeMessage from "../components/Welcome";
-import FreddyDescription from "../components/Freddy";
-import FreddyImage from "../assets/Freddy.jpg";
+import CharlieDescription from "../components/Charlie";
+import CharlieImage from "../assets/Charlie.jpg";
 import RosyDescription from "../components/Rosy";
 import RosyImage from "../assets/Rosy.jpg";
 import PorshaDescription from "../components/Porsha";
@@ -16,8 +16,8 @@ return (
     details='Feel free to click on a pet below and find out their story:' 
   />
   <div className = {classes.div}> 
-    <FreddyDescription 
-    image={FreddyImage}
+    <CharlieDescription 
+    image={CharlieImage}
     />
 
     <PorshaDescription 
