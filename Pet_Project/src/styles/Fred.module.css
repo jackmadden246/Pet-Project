@@ -1,12 +1,8 @@
 .title {
     font-size: 2em;
-    text-align: left;
-    color: darkorange;
+    color:#BFBDB0;
   }
 
 .image {
-    display: block;
-    margin-right: auto;
-    width: 30%;
-    height: 30%;
+    max-width: 30%;
 }
