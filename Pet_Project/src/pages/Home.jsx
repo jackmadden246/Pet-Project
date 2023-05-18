@@ -1,9 +1,9 @@
 import WelcomeMessage from "../components/Welcome";
-import CharlieDescription from "../components/Charlie";
+import CharlieDescription from "../components/Dog Profiles/Charlie";
 import CharlieImage from "../assets/Charlie.jpg";
-import RosyDescription from "../components/Rosy";
+import RosyDescription from "../components/Dog Profiles/Rosy";
 import RosyImage from "../assets/Rosy.jpg";
-import PorshaDescription from "../components/Porsha";
+import PorshaDescription from "../components/Dog Profiles/Porsha";
 import PorshaImage from "../assets/Porsha-puppy.jpg";
 import classes from "../styles/Home.module.css";
 

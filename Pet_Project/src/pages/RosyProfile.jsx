@@ -7,10 +7,10 @@ const RosyProfilePage = () => {
         <h1 className={classes.title}>Rosy: the reclusive Shih Tzu</h1>
         <div className={classes.div}>
         <p className={classes.text}>
-            Rosy is one of a kind. She loves nature, short walks by the beach, but you wouldn't catch her at a nightclub. 
-            Choose Rosy if you want a dog that everyone of all ages will love. 
+            Rosy is one of a kind. She loves nature and short walks by the beach, but you wouldn't catch her at a nightclub. 
+            Choose Rosy if you want a dog that everyone will love. 
          </p>
-        <img src={RosyImage}></img>
+        <img className={classes.image} src={RosyImage}></img>
         </div>
 
         </>

@@ -10,7 +10,7 @@ const PorshaProfilePage = () => {
             Porsha's love of the snowy wilderness is talked about as often as David Atttenborough. 
             She has the courage of a lion and the heart of a whale.
             </p>
-        <img src={PorshaImage}></img>
+        <img className={classes.image} src={PorshaImage}></img>
         </div>
 
         </>

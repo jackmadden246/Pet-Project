@@ -8,7 +8,7 @@ const CharlieProfilePage = () => {
         <div className={classes.div}> 
         <p className={classes.text}>
             Say hello to Charlie. He enjoys affection, cuddling and everything else. 
-            Pick Charlie if you want a puppy for life. Beware: his cute eyes can seduce even the most cold-hearted.
+            Pick Charlie if you want a dog for life. Beware! His cute eyes can seduce even the most cold-hearted.
             </p>
         <img className={classes.image} src={CharlieImage}></img>
         </div>

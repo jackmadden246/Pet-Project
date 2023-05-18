@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-import classes from "../styles/Charlie.module.css";
+import classes from "../../styles/Charlie.module.css";
 
 const CharlieDescription = props => {
   

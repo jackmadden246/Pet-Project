@@ -1,20 +1,19 @@
 .title {
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     color: rgba(232, 139, 45, 0.87)
   }
   
 .text {
-    font-size: 2em;
+    font-size: 1.7em;
     color: black;
     
 }  
 
 .image {
-    width: 50%;
+    width: 45%;
 }
 .div {
     display: block;
     text-align: center;
-    justify-content: center;
 }

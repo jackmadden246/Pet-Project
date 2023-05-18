@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-import classes from "../styles/Porsha.module.css";
+import classes from "../../styles/Rosy.module.css";
 
 const PorshaDescription = props => {
     return (
         <>
-        <Link to={"/PorshaProfile"}> 
+        <Link to={"/RosyProfile"}> 
         <img className={classes.image} src={props.image} />
         </Link>
         </>
