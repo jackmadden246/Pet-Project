@@ -1,9 +1,11 @@
 import classes from "../styles/PorshaProfile.module.css";
 import PorshaImage from "../assets/Porsha.jpg";
+import Navbar from "../components/UI/Navbar";
 
 const PorshaProfilePage = () => {
     return (
         <>
+        <Navbar />
         <h1 className={classes.title}>Porsha: the pouting Pomeranian</h1>
         <div className={classes.div}> 
         <p className={classes.text}>
@@ -12,7 +14,6 @@ const PorshaProfilePage = () => {
             </p>
         <img className={classes.image} src={PorshaImage}></img>
         </div>
-
         </>
     );
 };

@@ -1,20 +1,22 @@
-.title {
-    font-size: 4em;
+.div {
+    display: block;
     text-align: center;
-    color: rgba(232, 139, 45, 0.87)
-  }
-  
+}
+
+.image {
+    width: 26%;
+}
+
 .text {
     font-size: 1.7em;
     color: black;
     
 }  
 
-.image {
-    width: 28%;
-}
-
-.div {
-    display: block;
+.title {
+    font-size: 4em;
     text-align: center;
-}
+    color: rgba(232, 139, 45, 0.87);
+    margin-top: 1;
+  }
+  

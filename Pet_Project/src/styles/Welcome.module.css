@@ -1,3 +1,9 @@
+.text {
+    font-size: 1.7em;
+    text-align: center;
+    color: black;
+}  
+
 .title {
     font-size: 4em;
     text-align: center;
@@ -5,8 +11,3 @@
     margin-top: auto;
   }
   
-.text {
-    font-size: 1.7em;
-    text-align: center;
-    color: black;
-}  

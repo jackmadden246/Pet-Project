@@ -15,7 +15,7 @@ return (
     text='This is a project dedicated to showcasing beautiful animals that have had tragic lives, and would be very appreciative of a loving home.' 
     details='Feel free to click on a pet below and find out their story:' 
   />
-  <div className = {classes.div}> 
+  <div className={classes.div}> 
     <CharlieDescription 
     image={CharlieImage}
     />
@@ -27,7 +27,7 @@ return (
     <RosyDescription 
     image={RosyImage}
     />
-  </div>
+</div>
   </>
 )
 };

@@ -1,10 +1,10 @@
+.image {
+    display: inline-block;
+    margin: 5px 18px;
+    width: 32%;
+}
 .title {
     font-size: 2em;
-    color:#BFBDB0;
-  }
-
-.image {
-    display: flex;
-    max-width: 30%;
-    justify-content: space-between;
+    color: #BFBDB0;
 }
+
