@@ -1,15 +1,15 @@
-import classes from "../../styles/Charlie.module.css";
+import classes from "../styles/DogDescription.module.css";
 import { Fragment } from 'react';
 import {Link} from 'react-router-dom';
 
-const CharlieDescription = props => {
+const DogDescription = props => {
     return (
         <Fragment>
-        <Link to={"/CharlieProfile"}> 
+        <Link to={props.link}> 
         <img className={classes.image} src={props.image} />
         </Link>
         </Fragment>
     );
 }
 
-export default CharlieDescription;
+export default DogDescription;

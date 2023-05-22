@@ -1,11 +1,9 @@
 import RosyImage from "../assets/Rosy.webp";
-import Navbar from "../components/UI/Navbar";
 import classes from "../styles/RosyProfile.module.css";
 
 const RosyProfilePage = () => {
     return (
         <>
-        <Navbar />
         <h1 className={classes.title}>Rosy: the reclusive Shih Tzu</h1>
         <div className={classes.div}>
         <p className={classes.text}>
@@ -14,7 +12,6 @@ const RosyProfilePage = () => {
          </p>
         <img className={classes.image} src={RosyImage}></img>
         </div>
-
         </>
     );
 }

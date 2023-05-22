@@ -1,11 +1,10 @@
- .image {
+.image {
     display: inline-block;
-    margin: 5px 5px;
-    width: 32%;
+    margin: 5px 20px;
+    width: 29.3%;
 }
 
-.title { 
+.title {
     font-size: 2em;
     color: #BFBDB0;
 }
-
