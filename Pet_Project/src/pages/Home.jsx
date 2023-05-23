@@ -2,7 +2,7 @@ import WelcomeMessage from "../components/Welcome";
 import CharlieImage from "../assets/Charlie.jpg";
 import RosyImage from "../assets/Rosy.jpg";
 import PorshaImage from "../assets/Porsha-puppy.jpg";
-import DogProfile from "../components/DogDescription";
+import DogDescription from "../components/DogDescription";
 
 const HomePage = () => {
 return (
@@ -13,22 +13,24 @@ return (
     details='Feel free to click on a pet below and find out their story:' 
   />
   <div style = {{textAlign: "center"}}> 
-    <DogProfile
-    link="/CharlieProfile"
+    <DogDescription
+    link = "/dogs/Charlie"
     image={CharlieImage}
     />
 
-    <DogProfile 
-    link="/PorshaProfile"
+    <DogDescription
+     link = "/dogs/Porsha"
     image={PorshaImage}
     />
 
-    <DogProfile
-    link = "/RosyProfile"
+    <DogDescription
+    link = "/dogs/Rosy"
     image={RosyImage}
     />
+
 </div>
   </>
+ 
 )
 };
 
