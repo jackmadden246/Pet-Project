@@ -1,19 +1,22 @@
+import { dogProfiles } from "../components/BackendData";
 import classes from "../styles/PorshaProfile.module.css";
 import PorshaImage from "../assets/Porsha.jpg";
 
 const PorshaProfilePage = () => {
-    return (
-        <>
-        <h1 className={classes.title}>Porsha: the pouting Pomeranian</h1>
-        <div className={classes.div}> 
-        <p className={classes.text}>
-            Porsha's love of the snowy wilderness is talked about as often as David Atttenborough. 
-            She has the courage of a lion and the heart of a whale.
-            </p>
-        <img className={classes.image} src={PorshaImage}></img>
+    const porshaProfileData = dogProfiles;
+    const porshaData = porshaProfileData.map((item, i) => (
+        <div className={classes.div} key={i}> 
+        <h1 className={classes.title}>{item.porshaTitle}</h1>
+        <p className={classes.text}>{item.porshaTitle}</p>
         </div>
-        </>
-    );
+));
+
+        return ( 
+            <div className={classes.div}>
+            {porshaData}
+            <img className={classes.image} src={PorshaImage} />
+            </div>
+            );
 };
 
 export default PorshaProfilePage;

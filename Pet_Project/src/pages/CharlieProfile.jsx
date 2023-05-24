@@ -1,22 +1,24 @@
+import { dogProfiles } from "../components/BackendData";
 import CharlieImage from "../assets/Charlie-portrait.jpg";
 import classes from "../styles/CharlieProfile.module.css";
 
+
 const CharlieProfilePage = () => {
-    return (
-        <>
-        <div className={classes.div}> 
-        <h1 className={classes.title}>Charlie Chin: the funny, furry and fantastic puppy</h1>
-        <p className={classes.text}>
-            Say hello to Charlie. He enjoys affection, cuddling and everything else. 
-            Pick Charlie if you want a dog for life. Beware! His cute eyes can seduce even the most cold-hearted.
-            </p>
-        <img src={CharlieImage} />
+    const charlieProfileData = dogProfiles;
+    const charlieData = charlieProfileData.map((item, i) => (
+            <div className={classes.div} key={i}> 
+            <h1 className={classes.title}>{item.charlieTitle}</h1>
+            <p className={classes.text}>{item.charlieTitle}</p>
+            </div>
+    ))
+
+    return ( 
+        <div className={classes.div}>
+        {charlieData}
+        <img className={classes.image} src={CharlieImage} />
         </div>
-       
-        </>
-       
-    );
-};
+        );
+    };
 
 export default CharlieProfilePage;
 

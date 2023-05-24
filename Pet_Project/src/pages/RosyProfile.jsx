@@ -1,19 +1,22 @@
+import { dogProfiles } from "../components/BackendData";
 import RosyImage from "../assets/Rosy.webp";
 import classes from "../styles/RosyProfile.module.css";
 
 const RosyProfilePage = () => {
-    return (
-        <>
-        <h1 className={classes.title}>Rosy: the reclusive Shih Tzu</h1>
-        <div className={classes.div}>
-        <p className={classes.text}>
-            Rosy is one of a kind. She loves nature and short walks by the beach, but you wouldn't catch her at a nightclub. 
-            Choose Rosy if you want a dog that everyone will love. 
-         </p>
-        <img className={classes.image} src={RosyImage}></img>
+    const rosyProfileData = dogProfiles;
+    const rosyData = rosyProfileData.map((item, i) => (
+        <div className={classes.div} key={i}> 
+        <h1 className={classes.title}>{item.rosyTitle}</h1>
+        <p className={classes.text}>{item.rosyText}</p>
         </div>
-        </>
-    );
+));
+
+        return ( 
+            <div className={classes.div}>
+            {rosyData}
+            <img className={classes.image} src={RosyImage} />
+            </div>
+            );
 }
 
 export default RosyProfilePage;
