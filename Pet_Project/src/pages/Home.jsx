@@ -1,10 +1,12 @@
 import WelcomeMessage from "../components/Welcome";
-import CharlieImage from "../assets/Charlie.jpg";
-import RosyImage from "../assets/Rosy.jpg";
-import PorshaImage from "../assets/Porsha-puppy.jpg";
 import DogDescription from "../components/DogDescription";
+import { welcomeText } from "../components/BackendData";
+import CharlieImage from "../assets/Charlie.jpg";
+import PorshaImage from "../assets/Porsha-puppy.jpg";
+import RosyImage from "../assets/Rosy.jpg";
 
 const HomePage = () => {
+  const welcomeMessage = welcomeText.map(({w}) => w.title, w.text, w.details )
 return (
     <> 
     <WelcomeMessage

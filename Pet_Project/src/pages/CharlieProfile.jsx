@@ -10,8 +10,8 @@ const CharlieProfilePage = () => {
             Say hello to Charlie. He enjoys affection, cuddling and everything else. 
             Pick Charlie if you want a dog for life. Beware! His cute eyes can seduce even the most cold-hearted.
             </p>
-            </div>
         <img src={CharlieImage} />
+        </div>
        
         </>
        
