@@ -7,7 +7,7 @@ const PorshaProfilePage = () => {
     const porshaData = porshaProfileData.map((item, i) => (
         <div className={classes.div} key={i}> 
         <h1 className={classes.title}>{item.porshaTitle}</h1>
-        <p className={classes.text}>{item.porshaTitle}</p>
+        <p className={classes.text}>{item.porshaText}</p>
         </div>
 ));
 

@@ -9,12 +9,11 @@ const HomePage = () => {
 return (
     <> 
     <WelcomeMessage />
-  <div style = {{textAlign: "center"}}> 
+
     <DogDescription
     link = "/dogs/Charlie"
     image={CharlieImage}
     />
-
     <DogDescription
      link = "/dogs/Porsha"
     image={PorshaImage}
@@ -24,8 +23,6 @@ return (
     link = "/dogs/Rosy"
     image={RosyImage}
     />
-
-</div>
   </>
  
 )

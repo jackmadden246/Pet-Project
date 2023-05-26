@@ -8,7 +8,7 @@ const CharlieProfilePage = () => {
     const charlieData = charlieProfileData.map((item, i) => (
             <div className={classes.div} key={i}> 
             <h1 className={classes.title}>{item.charlieTitle}</h1>
-            <p className={classes.text}>{item.charlieTitle}</p>
+            <p className={classes.text}>{item.charlieText}</p>
             </div>
     ))
 
